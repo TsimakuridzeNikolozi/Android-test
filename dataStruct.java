@@ -30,7 +30,6 @@ public class dataStruct {
 	
 	public void remove(int value){
 		Integer i = valuesAndIndexes.get(value);
-		System.out.println(i);
 		if (i != null){
 			int lastElement = data.get(data.size() - 1);
 			Collections.swap(data, i, data.size() - 1);
